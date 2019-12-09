@@ -1,0 +1,3 @@
+com\wei\spring\cloud\alibaba\provider\ProviderAdminApplication.class
+com\wei\spring\cloud\alibaba\provider\controller\ProviderAdminController.class
+com\wei\spring\cloud\alibaba\provider\controller\EchoController.class

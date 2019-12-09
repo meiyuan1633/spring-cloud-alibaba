@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: provider-admin
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.64.136:8848
+
+server:
+  port: 11000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+
+spring:
+  application:
+    name: provider-admin
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.64.136:8848
+
+server:
+  port: 11001
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
